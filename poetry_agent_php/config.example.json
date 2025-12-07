@@ -1,0 +1,28 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "",
+        "name": "poetry_db"
+    },
+    "ai": {
+        "default_model": "gpt-4",
+        "openai_api_key": "your_openai_api_key_here",
+        "openai_base_url": "https://api.openai.com/v1"
+    },
+    "image": {
+        "upload_dir": "./uploads/images",
+        "max_size": 10485760,
+        "allowed_formats": ["jpg", "jpeg", "png", "webp"]
+    },
+    "api": {
+        "timeout": 60,
+        "retry_times": 3
+    },
+    "log": {
+        "level": "INFO",
+        "file": "./logs/poetry_agent.log"
+    }
+}
+

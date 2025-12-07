@@ -1,0 +1,13 @@
+/vendor/
+/.env
+/logs/*
+!/logs/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/images/.gitkeep
+composer.lock
+.idea/
+.vscode/
+*.log
+*.cache
+
