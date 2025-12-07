@@ -1,0 +1,19 @@
+# AI诗词推荐Agent依赖包
+
+# 数据库
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+cryptography>=41.0.0
+
+# AI模型API
+openai>=1.0.0
+
+# 图片处理
+Pillow>=10.0.0
+
+# 配置管理
+python-dotenv>=1.0.0
+
+# 其他工具
+requests>=2.31.0
+
